@@ -1,2 +1,5 @@
 -- lists all records of second_table
-SELECT score, name FRROM second_table ORDER BY score DESC;
+-- records ordered by descending score
+SELECT 'score', 'name'
+FROM 'second_table'
+ORDER BY 'score' DESC;
